@@ -1,21 +1,20 @@
 import { getAll, getById, create, update, deleteById } from "../services/movies.service.js";
+import { CustomError } from "../utils/customError.js";
 
-export const getMovies = (req, res) => {
-    const movies = getAll()
-    res.status(200).json(movies);
+export const getMovies = async (req, res) => {
+    try {
+        const movies = await getAll()
+        res.status(200).json(movies);
+    } catch (error) {
+        throw new CustomError('Error al obtener peliculas', 500);
+    }
 }
 
 export const getMovieById = (req, res) => {
     const { id } = req.params;
     const movie = getById(id);
     if(!movie){
-        return res.status(404).json(
-            {
-                error: "Película no encontrada",
-                code: 404,
-                success: false
-            }
-        );
+        throw new CustomError('Película no encontrada', 404);
     }
     res.status(200).json(movie);
 }
@@ -24,13 +23,7 @@ export const createMovie = (req, res) => {
     const movieData = req.body;
     const newMovie = create(movieData);
     if(!newMovie){
-        return res.status(500).json(
-            {
-                error: "Error del servidor",
-                code: 500,
-                success: false
-            }
-        )
+        throw new CustomError('Error al crear película', 500);
     }
     res.status(201).json(newMovie);
 }
@@ -40,13 +33,7 @@ export const updateMovie = (req, res) => {
     const movieData = req.body;
     const movieUpdated = update(id, movieData);
     if(!movieUpdated){
-        return res.status(404).json(
-            {
-                error: "Película no encontrada",
-                code: 404,
-                success: false
-            }
-        );
+        throw new CustomError('Error al actualizar película', 500);
     }
     res.status(200).json(movieData);
 }
@@ -56,13 +43,7 @@ export const deleteMovie = (req, res) => {
     const { id } = req.params;
     const deletedMovie = deleteById(id);
     if(!deletedMovie){
-        return res.status(404).json(
-            {
-                error: "Película no encontrada",
-                code: 404,
-                success: false
-            }
-        )
+        throw new CustomError('Error al eliminar película', 500);
     }
     res.status(200).send({
         success: true,

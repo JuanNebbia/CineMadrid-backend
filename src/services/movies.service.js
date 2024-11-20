@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from "fs";
 
-export const getAll = () => {
+export const getAll = async() => {
     const moviesString = readFileSync("./src/data/movies.json", "utf-8");
     const moviesArray = JSON.parse(moviesString);
     return moviesArray
@@ -13,7 +13,7 @@ export const getById = (id) => {
     return movie
 }
 
-export const create = (movieData) => {
+export const create = async (movieData) => {
     const moviesString = readFileSync("./src/data/movies.json", "utf-8");
     const moviesArray = JSON.parse(moviesString);
     moviesArray.push(movieData);

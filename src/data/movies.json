@@ -1,274 +1,278 @@
 [
     {
-      "id": 1,
-      "poster": "/src/assets/movies/el-conde.jpg",
-      "title": "El Conde",
-      "category": "Película",
-      "genres": [
-        "Comedia, Fantasía"
-      ],
-      "tags": "El Conde, Comedia, Fantasía, Vampiros",
-      "summary": "Una sátira que reimagina la vida de un vampiro dictador chileno que ha vivido por siglos.",
-      "cast": "Jaime Vadell, Gloria Münchmeyer, Alfredo Castro",
-      "trailer": "https://www.youtube.com/embed/elCondeTrailer",
-      "release": "2023-09-15",
-      "inTheatersSince": "2024-09-15",
-      "inTheatersUntil": "2025-10-15"
+        "id": 1,
+        "poster": "/src/assets/movies/el-conde.jpg",
+        "title": "El Conde",
+        "category": "Película",
+        "genres": [
+            "Comedia, Fantasía"
+        ],
+        "tags": "El Conde, Comedia, Fantasía, Vampiros",
+        "summary": "Una sátira que reimagina la vida de un vampiro dictador chileno que ha vivido por siglos.",
+        "cast": "Jaime Vadell, Gloria Münchmeyer, Alfredo Castro",
+        "trailer": "https://www.youtube.com/embed/elCondeTrailer",
+        "release": "2023-09-15",
+        "inTheatersSince": "2024-09-15",
+        "inTheatersUntil": "2025-10-15"
     },
     {
-      "id": 2,
-      "poster": "/src/assets/movies/bardo.jpg",
-      "title": "Bardo",
-      "category": "Película",
-      "genres": [
-        "Drama, Comedia"
-      ],
-      "tags": "Bardo, Drama, Comedia, Alejandro González Iñárritu",
-      "summary": "Un aclamado documentalista regresa a su tierra natal, enfrentándose a una crisis existencial.",
-      "cast": "Daniel Giménez Cacho, Griselda Siciliani",
-      "trailer": "https://www.youtube.com/embed/bardoTrailer",
-      "release": "2022-12-16",
-      "inTheatersSince": "2024-09-15",
-      "inTheatersUntil": "2025-10-15"
+        "id": 2,
+        "poster": "/src/assets/movies/bardo.jpg",
+        "title": "Bardo",
+        "category": "Película",
+        "genres": [
+            "Drama, Comedia"
+        ],
+        "tags": "Bardo, Drama, Comedia, Alejandro González Iñárritu",
+        "summary": "Un aclamado documentalista regresa a su tierra natal, enfrentándose a una crisis existencial.",
+        "cast": "Daniel Giménez Cacho, Griselda Siciliani",
+        "trailer": "https://www.youtube.com/embed/bardoTrailer",
+        "release": "2022-12-16",
+        "inTheatersSince": "2024-09-15",
+        "inTheatersUntil": "2025-10-15"
     },
     {
-      "id": 3,
-      "poster": "/src/assets/movies/el-poder-del-perro.jpg",
-      "title": "El Poder del Perro",
-      "category": "Película",
-      "genres": [
-        "Drama, Western"
-      ],
-      "tags": "El Poder del Perro, Western, Drama, Benedict Cumberbatch, Kirsten Dunst",
-      "summary": "Un ranchero dominante utiliza su poder para intimidar a quienes lo rodean, hasta que un secreto del pasado lo persigue.",
-      "cast": "Benedict Cumberbatch, Kirsten Dunst, Jesse Plemons",
-      "trailer": "https://www.youtube.com/embed/elPoderDelPerroTrailer",
-      "release": "2021-11-17",
-      "inTheatersSince": "2024-09-15",
-      "inTheatersUntil": "2025-10-15"
+        "id": 3,
+        "poster": "/src/assets/movies/el-poder-del-perro.jpg",
+        "title": "El Poder del Perro",
+        "category": "Película",
+        "genres": [
+            "Drama, Western"
+        ],
+        "tags": "El Poder del Perro, Western, Drama, Benedict Cumberbatch, Kirsten Dunst",
+        "summary": "Un ranchero dominante utiliza su poder para intimidar a quienes lo rodean, hasta que un secreto del pasado lo persigue.",
+        "cast": "Benedict Cumberbatch, Kirsten Dunst, Jesse Plemons",
+        "trailer": "https://www.youtube.com/embed/elPoderDelPerroTrailer",
+        "release": "2021-11-17",
+        "inTheatersSince": "2024-09-15",
+        "inTheatersUntil": "2025-10-15"
     },
     {
-      "id": 4,
-      "poster": "/src/assets/movies/pienso-en-el-final.jpg",
-      "title": "Pienso en el Final",
-      "category": "Película",
-      "genres": [
-        "Drama, Suspenso"
-      ],
-      "tags": "Pienso en el Final, Drama, Suspenso, Charlie Kaufman",
-      "summary": "Una joven reflexiona sobre su relación mientras visita la casa de los padres de su novio en una aislada granja.",
-      "cast": "Jesse Plemons, Jessie Buckley",
-      "trailer": "https://www.youtube.com/embed/piensoEnElFinalTrailer",
-      "release": "2020-09-04",
-      "inTheatersSince": "2024-09-15",
-      "inTheatersUntil": "2025-10-15"
+        "id": 4,
+        "poster": "/src/assets/movies/pienso-en-el-final.jpg",
+        "title": "Pienso en el Final",
+        "category": "Película",
+        "genres": [
+            "Drama, Suspenso"
+        ],
+        "tags": "Pienso en el Final, Drama, Suspenso, Charlie Kaufman",
+        "summary": "Una joven reflexiona sobre su relación mientras visita la casa de los padres de su novio en una aislada granja.",
+        "cast": "Jesse Plemons, Jessie Buckley",
+        "trailer": "https://www.youtube.com/embed/piensoEnElFinalTrailer",
+        "release": "2020-09-04",
+        "inTheatersSince": "2024-09-15",
+        "inTheatersUntil": "2025-10-15"
     },
     {
-      "id": 5,
-      "poster": "/src/assets/movies/get-back.jpg",
-      "title": "Get Back",
-      "category": "Documental",
-      "genres": [
-        "Documental, Música"
-      ],
-      "tags": "Get Back, Documental, Música, The Beatles, Peter Jackson",
-      "summary": "Un documental que sigue a The Beatles durante la grabación de su álbum final, mostrando momentos íntimos y creativos.",
-      "cast": "The Beatles",
-      "trailer": "https://www.youtube.com/embed/getBackTrailer",
-      "release": "2021-11-25",
-      "inTheatersSince": "2024-09-15",
-      "inTheatersUntil": "2025-10-15"
+        "id": 5,
+        "poster": "/src/assets/movies/get-back.jpg",
+        "title": "Get Back",
+        "category": "Documental",
+        "genres": [
+            "Documental, Música"
+        ],
+        "tags": "Get Back, Documental, Música, The Beatles, Peter Jackson",
+        "summary": "Un documental que sigue a The Beatles durante la grabación de su álbum final, mostrando momentos íntimos y creativos.",
+        "cast": "The Beatles",
+        "trailer": "https://www.youtube.com/embed/getBackTrailer",
+        "release": "2021-11-25",
+        "inTheatersSince": "2024-09-15",
+        "inTheatersUntil": "2025-10-15"
     },
     {
-      "id": 6,
-      "poster": "/src/assets/movies/la-casa-lobo.jpg",
-      "title": "La Casa Lobo",
-      "category": "Película",
-      "genres": [
-        "Animación, Terror"
-      ],
-      "tags": "La Casa Lobo, Animación, Terror, Fantasía",
-      "summary": "Una oscura y surrealista película animada que narra la historia de una joven refugiada en una casa extraña.",
-      "cast": "Amalia Kassai, Rainer Krause",
-      "trailer": "https://www.youtube.com/embed/casaLoboTrailer",
-      "release": "2018-03-15",
-      "inTheatersSince": "2024-09-15",
-      "inTheatersUntil": "2025-10-15"
+        "id": 6,
+        "poster": "/src/assets/movies/la-casa-lobo.jpg",
+        "title": "La Casa Lobo",
+        "category": "Película",
+        "genres": [
+            "Animación, Terror"
+        ],
+        "tags": "La Casa Lobo, Animación, Terror, Fantasía",
+        "summary": "Una oscura y surrealista película animada que narra la historia de una joven refugiada en una casa extraña.",
+        "cast": "Amalia Kassai, Rainer Krause",
+        "trailer": "https://www.youtube.com/embed/casaLoboTrailer",
+        "release": "2018-03-15",
+        "inTheatersSince": "2024-09-15",
+        "inTheatersUntil": "2025-10-15"
     },
     {
-      "id": 7,
-      "poster": "/src/assets/movies/la-isla-de-los-perros.jpg",
-      "title": "La Isla de los Perros",
-      "category": "Película",
-      "genres": [
-        "Animación, Aventura"
-      ],
-      "tags": "La Isla de los Perros, Animación, Aventura, Wes Anderson",
-      "summary": "Un grupo de perros exiliados a una isla de basura busca sobrevivir y ayudar a un niño en busca de su perro perdido.",
-      "cast": "Bryan Cranston, Koyu Rankin, Edward Norton",
-      "trailer": "https://www.youtube.com/embed/laIslaDeLosPerrosTrailer",
-      "release": "2018-03-23",
-      "inTheatersSince": "2024-09-15",
-      "inTheatersUntil": "2025-10-15"
+        "id": 7,
+        "poster": "/src/assets/movies/la-isla-de-los-perros.jpg",
+        "title": "La Isla de los Perros",
+        "category": "Película",
+        "genres": [
+            "Animación, Aventura"
+        ],
+        "tags": "La Isla de los Perros, Animación, Aventura, Wes Anderson",
+        "summary": "Un grupo de perros exiliados a una isla de basura busca sobrevivir y ayudar a un niño en busca de su perro perdido.",
+        "cast": "Bryan Cranston, Koyu Rankin, Edward Norton",
+        "trailer": "https://www.youtube.com/embed/laIslaDeLosPerrosTrailer",
+        "release": "2018-03-23",
+        "inTheatersSince": "2024-09-15",
+        "inTheatersUntil": "2025-10-15"
     },
     {
-      "id": 8,
-      "poster": "/src/assets/movies/la-haine.jpg",
-      "title": "La Haine",
-      "category": "Película",
-      "genres": [
-        "Drama, Crimen"
-      ],
-      "tags": "La Haine, Drama, Crimen, Mathieu Kassovitz",
-      "summary": "Tres jóvenes de un suburbio francés intentan lidiar con la violencia policial y la pobreza que los rodea.",
-      "cast": "Vincent Cassel, Hubert Koundé, Saïd Taghmaoui",
-      "trailer": "https://www.youtube.com/embed/laHaineTrailer",
-      "release": "1995-05-31",
-      "inTheatersSince": "2024-09-15",
-      "inTheatersUntil": "2025-10-15"
+        "id": 8,
+        "poster": "/src/assets/movies/la-haine.jpg",
+        "title": "La Haine",
+        "category": "Película",
+        "genres": [
+            "Drama, Crimen"
+        ],
+        "tags": "La Haine, Drama, Crimen, Mathieu Kassovitz",
+        "summary": "Tres jóvenes de un suburbio francés intentan lidiar con la violencia policial y la pobreza que los rodea.",
+        "cast": "Vincent Cassel, Hubert Koundé, Saïd Taghmaoui",
+        "trailer": "https://www.youtube.com/embed/laHaineTrailer",
+        "release": "1995-05-31",
+        "inTheatersSince": "2024-09-15",
+        "inTheatersUntil": "2025-10-15"
     },
     {
-      "id": 9,
-      "poster": "/src/assets/movies/coherence.jpg",
-      "title": "Coherence",
-      "category": "Película",
-      "genres": [
-        "Sci-Fi, Thriller"
-      ],
-      "tags": "Coherence, Sci-Fi, Thriller, Multiverso",
-      "summary": "Durante una cena, un grupo de amigos enfrenta una serie de eventos extraños después de que un cometa pasa cerca de la Tierra.",
-      "cast": "Emily Baldoni, Maury Sterling",
-      "trailer": "https://www.youtube.com/embed/coherenceTrailer",
-      "release": "2013-09-19",
-      "inTheatersSince": "2024-09-15",
-      "inTheatersUntil": "2025-10-15"
+        "id": 9,
+        "poster": "/src/assets/movies/coherence.jpg",
+        "title": "Coherence",
+        "category": "Película",
+        "genres": [
+            "Sci-Fi, Thriller"
+        ],
+        "tags": "Coherence, Sci-Fi, Thriller, Multiverso",
+        "summary": "Durante una cena, un grupo de amigos enfrenta una serie de eventos extraños después de que un cometa pasa cerca de la Tierra.",
+        "cast": "Emily Baldoni, Maury Sterling",
+        "trailer": "https://www.youtube.com/embed/coherenceTrailer",
+        "release": "2013-09-19",
+        "inTheatersSince": "2024-09-15",
+        "inTheatersUntil": "2025-10-15"
     },
     {
-      "id": 10,
-      "poster": "/src/assets/movies/akira.jpg",
-      "title": "Akira",
-      "category": "Película",
-      "genres": [
-        "Animación, Sci-Fi"
-      ],
-      "tags": "Akira, Animación, Sci-Fi, Cyberpunk",
-      "summary": "En un futuro post-apocalíptico, un joven motociclista adquiere poderes telequinéticos y se enfrenta al gobierno.",
-      "cast": "Mitsuo Iwata, Nozomu Sasaki",
-      "trailer": "https://www.youtube.com/embed/akiraTrailer",
-      "release": "1988-07-16",
-      "inTheatersSince": "2024-09-15",
-      "inTheatersUntil": "2025-10-15"
+        "id": 10,
+        "poster": "/src/assets/movies/akira.jpg",
+        "title": "Akira",
+        "category": "Película",
+        "genres": [
+            "Animación, Sci-Fi"
+        ],
+        "tags": "Akira, Animación, Sci-Fi, Cyberpunk",
+        "summary": "En un futuro post-apocalíptico, un joven motociclista adquiere poderes telequinéticos y se enfrenta al gobierno.",
+        "cast": "Mitsuo Iwata, Nozomu Sasaki",
+        "trailer": "https://www.youtube.com/embed/akiraTrailer",
+        "release": "1988-07-16",
+        "inTheatersSince": "2024-09-15",
+        "inTheatersUntil": "2025-10-15"
     },
     {
-      "id": 11,
-      "poster": "/src/assets/movies/nausicaa.jpg",
-      "title": "Nausicaä en el Valle del Viento",
-      "category": "Película",
-      "genres": [
-        "Animación, Aventura"
-      ],
-      "tags": "Nausicaä, Animación, Aventura, Hayao Miyazaki",
-      "summary": "Una princesa de un reino en un futuro distante lucha por proteger su hogar de una guerra destructiva.",
-      "cast": "Sumi Shimamoto, Mahito Tsujimura",
-      "trailer": "https://www.youtube.com/embed/nausicaaTrailer",
-      "release": "1984-03-11",
-      "inTheatersSince": "2024-09-15",
-      "inTheatersUntil": "2025-10-15"
+        "id": 11,
+        "poster": "/src/assets/movies/nausicaa.jpg",
+        "title": "Nausicaä en el Valle del Viento",
+        "category": "Película",
+        "genres": [
+            "Animación, Aventura"
+        ],
+        "tags": "Nausicaä, Animación, Aventura, Hayao Miyazaki",
+        "summary": "Una princesa de un reino en un futuro distante lucha por proteger su hogar de una guerra destructiva.",
+        "cast": "Sumi Shimamoto, Mahito Tsujimura",
+        "trailer": "https://www.youtube.com/embed/nausicaaTrailer",
+        "release": "1984-03-11",
+        "inTheatersSince": "2024-09-15",
+        "inTheatersUntil": "2025-10-15"
     },
     {
-      "id": 12,
-      "poster": "/src/assets/movies/el-planeta-salvaje.jpg",
-      "title": "El Planeta Salvaje",
-      "category": "Película",
-      "genres": [
-        "Animación, Sci-Fi"
-      ],
-      "tags": "El Planeta Salvaje, Animación, Sci-Fi, Fantasía",
-      "summary": "En un planeta distante, los humanos son mascotas de gigantes extraterrestres hasta que un grupo se rebela.",
-      "cast": "Jennifer Drake, Eric Baugin",
-      "trailer": "https://www.youtube.com/embed/elPlanetaSalvajeTrailer",
-      "release": "1973-12-06",
-      "inTheatersSince": "2024-09-15",
-      "inTheatersUntil": "2025-10-15"
+        "id": 12,
+        "poster": "/src/assets/movies/el-planeta-salvaje.jpg",
+        "title": "El Planeta Salvaje",
+        "category": "Película",
+        "genres": [
+            "Animación, Sci-Fi"
+        ],
+        "tags": "El Planeta Salvaje, Animación, Sci-Fi, Fantasía",
+        "summary": "En un planeta distante, los humanos son mascotas de gigantes extraterrestres hasta que un grupo se rebela.",
+        "cast": "Jennifer Drake, Eric Baugin",
+        "trailer": "https://www.youtube.com/embed/elPlanetaSalvajeTrailer",
+        "release": "1973-12-06",
+        "inTheatersSince": "2024-09-15",
+        "inTheatersUntil": "2025-10-15"
     },
     {
-      "id": 13,
-      "poster": "/src/assets/movies/citizen-kane.jpg",
-      "title": "Citizen Kane",
-      "category": "Película",
-      "genres": [
-        "Drama, Misterio"
-      ],
-      "tags": "Citizen Kane, Drama, Misterio, Orson Welles",
-      "summary": "Un magnate de los medios de comunicación muere, y su vida es investigada a través de los recuerdos de sus allegados.",
-      "cast": "Orson Welles, Joseph Cotten",
-      "trailer": "https://www.youtube.com/embed/citizenKaneTrailer",
-      "release": "1941-09-05",
-      "inTheatersSince": "2024-09-15",
-      "inTheatersUntil": "2025-10-15"
+        "id": 13,
+        "poster": "/src/assets/movies/citizen-kane.jpg",
+        "title": "Citizen Kane",
+        "category": "Película",
+        "genres": [
+            "Drama, Misterio"
+        ],
+        "tags": "Citizen Kane, Drama, Misterio, Orson Welles",
+        "summary": "Un magnate de los medios de comunicación muere, y su vida es investigada a través de los recuerdos de sus allegados.",
+        "cast": "Orson Welles, Joseph Cotten",
+        "trailer": "https://www.youtube.com/embed/citizenKaneTrailer",
+        "release": "1941-09-05",
+        "inTheatersSince": "2024-09-15",
+        "inTheatersUntil": "2025-10-15"
     },
     {
-      "id": 14,
-      "poster": "/src/assets/movies/tekkonkinkreet.jpg",
-      "title": "Tekkonkinkreet",
-      "category": "Película",
-      "genres": [
-        "Animación, Acción"
-      ],
-      "tags": "Tekkonkinkreet, Animación, Acción, Fantasía",
-      "summary": "Dos huérfanos luchan por proteger su hogar en la ciudad de Treasure Town de invasores externos.",
-      "cast": "Kazunari Ninomiya, Yū Aoi",
-      "trailer": "https://www.youtube.com/embed/tekkonkinkreetTrailer",
-      "release": "2006-12-23",
-      "inTheatersSince": "2024-09-15",
-      "inTheatersUntil": "2025-10-15"
+        "id": 14,
+        "poster": "/src/assets/movies/tekkonkinkreet.jpg",
+        "title": "Tekkonkinkreet",
+        "category": "Película",
+        "genres": [
+            "Animación, Acción"
+        ],
+        "tags": "Tekkonkinkreet, Animación, Acción, Fantasía",
+        "summary": "Dos huérfanos luchan por proteger su hogar en la ciudad de Treasure Town de invasores externos.",
+        "cast": "Kazunari Ninomiya, Yū Aoi",
+        "trailer": "https://www.youtube.com/embed/tekkonkinkreetTrailer",
+        "release": "2006-12-23",
+        "inTheatersSince": "2024-09-15",
+        "inTheatersUntil": "2025-10-15"
     },
     {
-      "id": 15,
-      "poster": "/src/assets/movies/its-such-a-beautiful-day.jpg",
-      "title": "It's Such a Beautiful Day",
-      "category": "Película",
-      "genres": [
-        "Animación, Drama"
-      ],
-      "tags": "It's Such a Beautiful Day, Animación, Drama, Don Hertzfeldt",
-      "summary": "Un hombre reflexiona sobre su vida y la fragilidad de la existencia mientras enfrenta una misteriosa enfermedad.",
-      "cast": "Don Hertzfeldt",
-      "trailer": "https://www.youtube.com/embed/itsSuchABeautifulDayTrailer",
-      "release": "2012-08-24",
-      "inTheatersSince": "2024-09-15",
-      "inTheatersUntil": "2025-10-15"
+        "id": 15,
+        "poster": "/src/assets/movies/its-such-a-beautiful-day.jpg",
+        "title": "It's Such a Beautiful Day",
+        "category": "Película",
+        "genres": [
+            "Animación, Drama"
+        ],
+        "tags": "It's Such a Beautiful Day, Animación, Drama, Don Hertzfeldt",
+        "summary": "Un hombre reflexiona sobre su vida y la fragilidad de la existencia mientras enfrenta una misteriosa enfermedad.",
+        "cast": "Don Hertzfeldt",
+        "trailer": "https://www.youtube.com/embed/itsSuchABeautifulDayTrailer",
+        "release": "2012-08-24",
+        "inTheatersSince": "2024-09-15",
+        "inTheatersUntil": "2025-10-15"
     },
     {
-      "id": 16,
-      "poster": "/src/assets/movies/birdman.jpg",
-      "title": "Birdman",
-      "category": "Película",
-      "genres": [
-        "Drama, Comedia"
-      ],
-      "tags": "Birdman, Drama, Comedia, Alejandro González Iñárritu",
-      "summary": "Un actor en decadencia lucha por montar una obra de teatro en Broadway mientras lidia con su ego y su pasado como superhéroe.",
-      "cast": "Michael Keaton, Edward Norton, Emma Stone",
-      "trailer": "https://www.youtube.com/embed/birdmanTrailer",
-      "release": "2014-10-17",
-      "inTheatersSince": "2024-09-15",
-      "inTheatersUntil": "2025-10-15"
+        "id": 16,
+        "poster": "/src/assets/movies/birdman.jpg",
+        "title": "Birdman",
+        "category": "Película",
+        "genres": [
+            "Drama, Comedia"
+        ],
+        "tags": "Birdman, Drama, Comedia, Alejandro González Iñárritu",
+        "summary": "Un actor en decadencia lucha por montar una obra de teatro en Broadway mientras lidia con su ego y su pasado como superhéroe.",
+        "cast": "Michael Keaton, Edward Norton, Emma Stone",
+        "trailer": "https://www.youtube.com/embed/birdmanTrailer",
+        "release": "2014-10-17",
+        "inTheatersSince": "2024-09-15",
+        "inTheatersUntil": "2025-10-15"
     },
     {
-      "id": 17,
-      "poster": "/src/assets/movies/la-langosta.jpg",
-      "title": "La Langosta",
-      "category": "Película",
-      "genres": [
-        "Drama, Sci-Fi"
-      ],
-      "tags": "La Langosta, Drama, Sci-Fi, Yorgos Lanthimos",
-      "summary": "En un futuro distópico, las personas solteras tienen 45 días para encontrar pareja o serán transformadas en animales.",
-      "cast": "Colin Farrell, Rachel Weisz",
-      "trailer": "https://www.youtube.com/embed/laLangostaTrailer",
-      "release": "2015-10-16",
-      "inTheatersSince": "2024-09-15",
-      "inTheatersUntil": "2025-10-15"
+        "id": 17,
+        "poster": "/src/assets/movies/la-langosta.jpg",
+        "title": "La Langosta",
+        "category": "Película",
+        "genres": [
+            "Drama, Sci-Fi"
+        ],
+        "tags": "La Langosta, Drama, Sci-Fi, Yorgos Lanthimos",
+        "summary": "En un futuro distópico, las personas solteras tienen 45 días para encontrar pareja o serán transformadas en animales.",
+        "cast": "Colin Farrell, Rachel Weisz",
+        "trailer": "https://www.youtube.com/embed/laLangostaTrailer",
+        "release": "2015-10-16",
+        "inTheatersSince": "2024-09-15",
+        "inTheatersUntil": "2025-10-15"
+    },
+    {
+        "id": 1,
+        "title": "Caperucita Roja"
     }
-  ]
+]
