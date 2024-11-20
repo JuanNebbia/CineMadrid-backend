@@ -9,6 +9,7 @@ Este proyecto forma parte del contenido de las clases prácticas del Bootcamp de
   - [🔧 Instalación](#-instalación)
   - [📖 Avance de cada clase](#-avance-de-cada-clase)
     - [Clase 06/11: Creación de proyecto Express y CRUD básico](#clase-0611-creación-de-proyecto-express-y-crud-básico)
+    - [Clase 13/11: Arquitectura de aplicación backend](#clase-1311-arquitectura-de-aplicación-backend)
 
 
 ## 🔧 Instalación
@@ -88,3 +89,17 @@ Esto iniciará la aplicación en http://localhost:3000.
   ```js
     app.use(express.json());
   ``` 
+
+  ### Clase 13/11: Arquitectura de aplicación backend
+* **Objetivos:**
+  * Estructurar la aplicación backend en diferentes capas:
+    * Raíz
+    * Routers
+    * Controllers
+    * Services
+  * Comprender el rol de cada nivel del flujo, y el beneficio de su implementación
+  * Distribuir las funcionalidades del sistema en sus respectivos archivos y carpetas
+* **Avances**
+  * Se crea la carpeta */routes* y los archivos de rutas para cada entidad a trabajar. En este caso */routes/movies.routes.js* y */routes/users.routes.js*. Se mueven los endpoints respectivos a estos archivos y se dejan en el archivo raíz los middlewares de acceso a las rutas.
+  * Se crea la carpeta */controllers* y los archivos de controladores */controllers/movies.controller.js* y */controllers/users.controller.js*. Se mueven los endpoints a estos archivos y se los llama desde los archivos de rutas.
+  * Se crea la carpeta */services* con los archivos */services/movies.service.js* y */services/users.service.js*. Se mueve a estos archivos las funciones con la lógica y el acceso a la persistencia de datos mediante archivos *.json*
