@@ -10,6 +10,7 @@ Este proyecto forma parte del contenido de las clases prácticas del Bootcamp de
   - [📖 Avance de cada clase](#-avance-de-cada-clase)
     - [Clase 06/11: Creación de proyecto Express y CRUD básico](#clase-0611-creación-de-proyecto-express-y-crud-básico)
     - [Clase 13/11: Arquitectura de aplicación backend](#clase-1311-arquitectura-de-aplicación-backend)
+    - [Clase 20/11: Middleware](#clase-2011-middleware)
 
 
 ## 🔧 Instalación
@@ -103,3 +104,17 @@ Esto iniciará la aplicación en http://localhost:3000.
   * Se crea la carpeta */routes* y los archivos de rutas para cada entidad a trabajar. En este caso */routes/movies.routes.js* y */routes/users.routes.js*. Se mueven los endpoints respectivos a estos archivos y se dejan en el archivo raíz los middlewares de acceso a las rutas.
   * Se crea la carpeta */controllers* y los archivos de controladores */controllers/movies.controller.js* y */controllers/users.controller.js*. Se mueven los endpoints a estos archivos y se los llama desde los archivos de rutas.
   * Se crea la carpeta */services* con los archivos */services/movies.service.js* y */services/users.service.js*. Se mueve a estos archivos las funciones con la lógica y el acceso a la persistencia de datos mediante archivos *.json*
+
+### Clase 20/11: Middleware
+* **Objetivos:**
+  * Comprender el uso y la funcionalidad de los middlewares en Express.
+  * Definir la importancia de los parámetros **next** y **error** en los middlewares.
+  * Aplicar el uso de middleware de diferentes tipos:
+    * A nivel de aplicación / globales
+    * A nivel de rutas
+    * Para control de errores
+* **Avances**
+  * Se añade un middleware a nivel de aplicación para la ruta principal de bienvenida, que simplemente muestra un saludo por consola.
+  * Se incorpora a la estructura una carpeta *middlewares* para contener los archivos destinados a tal propósito.
+  * Se crean middlewares a nivel de ruta para simular el control de autenticación y roles de las peticiones entrantes. Se encuentran en archivos *auth.middleware.js* y *role.middleware.js*
+  * Se agrega un middleware para control de errores en el archivo *error.middleware.js* y se lo invoca en el archivo principal.
