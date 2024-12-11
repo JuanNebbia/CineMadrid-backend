@@ -1,7 +1,8 @@
 import { MongoClient } from "mongodb";
+process.loadEnvFile();
 
-const url = "mongodb://127.0.0.1:27017";
-const dbName = "cinemadrid";
+const url = process.env.MONGODB_URL;
+const dbName = process.env.MONGODB_DB;
 
 const client = new MongoClient(url);
 

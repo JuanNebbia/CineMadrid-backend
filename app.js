@@ -4,7 +4,9 @@ import usersRoutes from "./src/routes/users.routes.js";
 import { errorMiddleware } from "./src/middlewares/error.middleware.js";
 import cors from 'cors'
 
-const PORT = 3000;
+process.loadEnvFile()
+
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
