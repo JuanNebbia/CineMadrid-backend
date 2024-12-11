@@ -3,8 +3,8 @@ import moviesRoutes from "./src/routes/movies.routes.js";
 import usersRoutes from "./src/routes/users.routes.js";
 import { errorMiddleware } from "./src/middlewares/error.middleware.js";
 import cors from 'cors'
-
-process.loadEnvFile()
+import dotenv from 'dotenv'
+dotenv.config()
 
 const PORT = process.env.PORT || 3000;
 
